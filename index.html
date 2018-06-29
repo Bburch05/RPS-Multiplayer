@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>RPS Multiplayer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Enter your Name</h1>
+                    <form>
+                            <input type="text" id="name" />
+                            <input type="submit" id="nameSubmit" />
+                    </form>
+            </div>  
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="player1">
+                    <h1 id='name1'>Name Here</h1>
+                    <h6 id='rock1'>Rock</h6>
+                    <h6 id='paper1'>Paper</h6>
+                    <h6 id='scissors1'>Scissors</h6>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="results">
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="player2">
+                        <h1 id='name2'>Name Here</h1>
+                        <h6 id='rock2'>Rock</h6>
+                        <h6 id='paper2'>Paper</h6>
+                        <h6 id='scissors2'>Scissors</h6>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class= "col-md-12">
+                <h1>Chat Here</h1>
+                <div class= "chat">
+                    
+                </div>
+                <form>
+                    <input type="text" id="chatty" />
+                    <input type="submit" id="ChatSubmit" />
+                </form>
+            </div>
+        </div>
+
+        
+      </div>
+    
+   
+
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script src="assets/java/game.js"></script>
+</body>
+</html>
