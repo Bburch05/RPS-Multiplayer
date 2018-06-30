@@ -1,0 +1,12 @@
+.chat {
+    height: 300px;
+    width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    max-width: 300px;
+    background-color: aquamarine;
+}
+
+.yourMsg {
+    color: sienna;
+}
